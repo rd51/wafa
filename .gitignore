@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Runtime audit log (wafa/audit.py recreates logs/ at startup)
+logs/
+
+# Fine-tuned DistilmBERT weights: model.safetensors is ~516 MB each, over
+# GitHub's 100 MB hard limit. Not needed for the default deploy — the app
+# serves the LSTM classifier and falls back gracefully if these are absent.
+# To use them, keep the folders locally and set WAFA_CLASSIFIER=finetuned.
+models/wafa_finetuned_issue_type/
+models/wafa_finetuned_churn_signal/
+
+# Node (docx generators are run ad hoc; deps are not vendored)
+node_modules/
+package-lock.json
+
+# Editor / OS / tooling
+.claude/
+.DS_Store
+Thumbs.db
+~$*.docx
