@@ -1,0 +1,15 @@
+# Lean, CPU-only runtime deps for the Render deploy.
+# Serves the LSTM classifier + plotly dashboard + multilingual template drafting.
+# torch / transformers / xgboost are intentionally omitted — the app falls back
+# gracefully if the Qwen or fine-tuned toggles are used without them. To enable
+# live Qwen drafting or the fine-tuned classifier, add torch + transformers and
+# set WAFA_USE_LLM=1 / WAFA_CLASSIFIER=finetuned (needs a bigger instance).
+gradio==6.19.0
+plotly==6.8.0
+pandas==2.3.3
+numpy==2.5.0
+scipy==1.18.0
+scikit-learn==1.9.0
+joblib==1.5.3
+tensorflow-cpu==2.21.0
+keras==3.14.1
