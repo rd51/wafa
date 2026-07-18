@@ -1,3 +1,15 @@
+---
+title: Customer Retention Intelligence Platform
+emoji: 🏦
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.19.0
+app_file: app.py
+python_version: "3.12"
+pinned: false
+---
+
 # Project Wafa — Customer Retention Intelligence Platform
 
 Falcon Bank UAE · MAIB AI 115 · Final Group Project
@@ -32,7 +44,8 @@ this is also the demo-insurance path). First LLM run downloads
 Smoke test (three demo scenarios end to end):
 `python training/smoke_test.py`
 
-Full evaluation pipeline:
+Full evaluation pipeline (needs the extra training deps —
+`pip install -r requirements-dev.txt`):
 
 ```
 python training/make_unseen_testset.py       # unseen-template test set (honest eval)

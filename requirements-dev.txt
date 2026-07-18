@@ -1,0 +1,8 @@
+# Extra dependencies for training/experiments beyond the runtime app:
+# fine-tuning the DistilmBERT pair and the model bake-off. Installs the
+# runtime deps first, then the heavy extras.
+-r requirements.txt
+xgboost==3.3.0
+torch==2.12.1
+transformers==5.12.1
+huggingface_hub

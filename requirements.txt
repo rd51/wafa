@@ -1,12 +1,12 @@
-pandas
-numpy
-scikit-learn
-xgboost
-joblib
-tensorflow
-keras
-gradio
-plotly
-torch
-transformers
-huggingface_hub
+# Runtime dependencies — CPU-only, pinned. Runs the app and trains the
+# LSTM (M1) + churn model (M2). For fine-tuning the transformer and the model
+# bake-off, also install requirements-dev.txt.
+gradio==6.19.0
+plotly==6.8.0
+pandas==2.3.3
+numpy==2.5.0
+scipy==1.18.0
+scikit-learn==1.9.0
+joblib==1.5.3
+tensorflow-cpu==2.21.0
+keras==3.14.1
