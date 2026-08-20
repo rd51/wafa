@@ -12,7 +12,7 @@ pinned: false
 
 # Project Wafa — Customer Retention Intelligence Platform
 
-Falcon Bank UAE · MAIB AI 115 · Final Group Project
+Falcon Bank UAE · MAIB coursework case study
 
 Wafa (وفاء) means loyalty — and it runs both ways. The platform listens to
 customer messages in four languages, fuses what customers *say* with what

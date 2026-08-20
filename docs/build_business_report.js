@@ -75,7 +75,7 @@ const doc = new Document({
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 40 },
         children: [new TextRun({ text: "Findings and recommendations from Project Wafa", italics: true, size: 22 })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 200 },
-        children: [new TextRun({ text: "Prepared for the Chief Customer Officer · MAIB AI 115 Final Group Project · July 2026 — Rakshanda Dhote", size: 16, color: "555555" })] }),
+        children: [new TextRun({ text: "Prepared for the Chief Customer Officer · July 2026 — Rakshanda Dhote", size: 16, color: "555555" })] }),
 
       h1("Executive summary"),
       bullet([run("AED 5.46M of the AED 19.9M customer-lifetime-value book — 27% — sits with customers the churn model flags as at risk.", { bold: true })]),

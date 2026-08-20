@@ -2,10 +2,9 @@
 Project Wafa - Interface contracts between modules.
 
 Every arrow in the architecture diagram carries exactly one of these
-dictionaries. Modules are built and tested against these contracts, so
-teammates can work in parallel: if your module consumes a contract, test it
-against the mock factories at the bottom of this file, never against a
-teammate's unfinished code.
+dictionaries. Modules are built and tested against these contracts independently: if your
+module consumes a contract, test it against the mock factories at the bottom
+of this file rather than against another module's unfinished code.
 
 Pipeline:  raw message + customer_id
              -> M1 listen()      -> ListenSignals

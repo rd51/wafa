@@ -1,7 +1,7 @@
 """
 Fine-tune DistilmBERT on the Wafa messages - runs on FREE Google Colab (T4).
 
-How to use (teammate owning M1b):
+How to use:
   1. Open colab.research.google.com -> New notebook -> Runtime -> T4 GPU.
   2. Upload this file and data/messages.csv (left sidebar -> Files).
   3. Run:  !pip -q install transformers datasets accelerate

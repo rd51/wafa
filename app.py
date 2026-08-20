@@ -61,7 +61,7 @@ def build_app() -> gr.Blocks:
         gr.HTML("<div class='footer-disclaimer'>Synthetic data only - Falcon "
                 "Bank UAE is fictional. Every AI output shows confidence and "
                 "requires human approval before reaching a customer. "
-                "MAIB AI 115 · Final Group Project · Project Wafa team.</div>")
+                "Project Wafa.</div>")
     return demo
 
 

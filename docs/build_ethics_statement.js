@@ -52,7 +52,7 @@ const doc = new Document({
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 40 },
         children: [new TextRun({ text: "Project Wafa — Ethics Statement", bold: true, size: 30 })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 160 },
-        children: [new TextRun({ text: "MAIB AI 115 · Final Group Project · July 2026 — Rakshanda Dhote", size: 16, color: "555555" })] }),
+        children: [new TextRun({ text: "MAIB AI 115 · July 2026 — Rakshanda Dhote", size: 16, color: "555555" })] }),
 
       p([run("This platform automates decisions about people under stress, in a context involving displacement. Our design principle is the course's spine: "),
          run("learned models for language, transparent rules wherever money or trust is decided, and a human before anything reaches a customer.", { bold: true }),

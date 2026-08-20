@@ -137,7 +137,7 @@ const doc = new Document({
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 40 },
         children: [new TextRun({ text: "A Customer Retention Intelligence Platform for Falcon Bank UAE", italics: true, size: 22 })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 60 },
-        children: [new TextRun({ text: "MAIB AI 115 · NLP and Models · Final Group Project — Deliverable 1 · July 2026", size: 20, color: "555555" })] }),
+        children: [new TextRun({ text: "MAIB AI 115 · NLP and Models · Deliverable 1 · July 2026", size: 20, color: "555555" })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 200 },
         children: [new TextRun({ text: "Rakshanda Dhote", size: 18, color: "555555" })] }),
 
