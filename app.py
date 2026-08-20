@@ -71,6 +71,9 @@ if __name__ == "__main__":
     # Locally, WAFA_HOST/WAFA_PORT still work and default to a public bind.
     host = os.environ.get("WAFA_HOST", "0.0.0.0")
     port = int(os.environ.get("PORT", os.environ.get("WAFA_PORT", "7860")))
-    app.launch(server_name=host, server_port=port,
+    # WAFA_SHARE=1 (default) creates a public https://*.gradio.live link (~72h),
+    # tunneled to this machine — handy for demos. Set WAFA_SHARE=0 for local-only.
+    share = os.environ.get("WAFA_SHARE", "1") == "1"
+    app.launch(server_name=host, server_port=port, share=share,
                css=theme.CSS, js=FORCE_DARK,
                theme=gr.themes.Base(primary_hue="sky", neutral_hue="slate"))
